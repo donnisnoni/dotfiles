@@ -9,3 +9,6 @@ sudo chsh -s `which fish`
 
 # Install VSCode
 bash scripts/install_vscode.sh
+
+# Install Vimix GTK theme
+bash scripts/install_vimix_theme.sh
