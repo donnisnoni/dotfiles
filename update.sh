@@ -7,5 +7,6 @@ cp $HOME/.gitconfig                 ./home
 cp $HOME/.gitignore_global          ./home
 # cp $HOME/.npmrc                     ./home
 cp $HOME/.netrc                     ./home
-cp $HOME/.config/fish -rf           ./home/.config/fish
-cp $HOME/.config/fontconfig -rf     ./home/.config/fontconfig
+cp $HOME/.config/fish -rf           ./home/.config
+cp $HOME/.config/fontconfig -rf     ./home/.config
+cp $HOME/.config/lxpanel -rf        ./home/.config

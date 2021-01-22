@@ -1,0 +1,122 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=bottom
+  align=center
+  margin=20
+  widthtype=percent
+  width=100
+  height=20
+  transparent=0
+  tintcolor=#ffffff
+  alpha=255
+  setdocktype=1
+  setpartialstrut=1
+  autohide=0
+  heightwhenhidden=4
+  usefontcolor=0
+  fontcolor=#1f2128
+  background=0
+  backgroundfile=/usr/share/lxpanel/images/background.png
+  iconsize=16
+  usefontsize=0
+  fontsize=9
+}
+Plugin {
+  type=space
+  Config {
+    Size=1
+  }
+  expand=0
+}
+Plugin {
+  type=menu
+  Config {
+    image=/home/don/Pictures/icons8-apple-logo-filled-100.png
+    system {
+    }
+    separator {
+    }
+    item {
+      command=run
+    }
+    separator {
+    }
+    item {
+      image=gnome-logout
+      command=logout
+    }
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+  expand=0
+}
+Plugin {
+  type=launchtaskbar
+  Config {
+    Button {
+      id=Google Chrome-24e8411e-9ab2-11ea-b666-2997102a425e.desktop
+    }
+    Button {
+      id=gnome-system-monitor-kde.desktop
+    }
+    Button {
+      id=flameshot.desktop
+    }
+    Button {
+      id=wine-Programs-HeidiSQL-HeidiSQL.desktop
+    }
+    Button {
+      id=sublime_text.desktop
+    }
+    Button {
+      id=code.desktop
+    }
+    Button {
+      id=google-chrome.desktop
+    }
+    Button {
+      id=nemo.desktop
+    }
+    Button {
+      id=lxterminal.desktop
+    }
+    MaxTaskWidth=120
+    DisableUpscale=-1
+    GroupedTasks=0
+    IconsOnly=0
+    FlatButton=0
+    UseUrgencyHint=-1
+    spacing=2
+  }
+}
+Plugin {
+  type=tray
+  Config {
+  }
+}
+Plugin {
+  type=volume
+  Config {
+    VolumeMuteKey=XF86AudioMute
+    VolumeDownKey=XF86AudioLowerVolume
+    VolumeUpKey=XF86AudioRaiseVolume
+    CardNumber=-1
+    MasterChannel=Master
+  }
+}
+Plugin {
+  type=dclock
+  Config {
+    ClockFmt=%R
+    TooltipFmt=%A %x
+    BoldFont=0
+    IconOnly=0
+    CenterText=0
+  }
+}
