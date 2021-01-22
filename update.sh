@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/env bash
 
 # HOME config files
 cp $HOME/.bash_profile              ./home

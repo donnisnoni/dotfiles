@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/env bash
 
 # Install packages
 sudo apt update -y
@@ -8,4 +8,4 @@ sudo apt install -y lxde hsetroot fish-shell
 sudo chsh -s `which fish`
 
 # Install VSCode
-sh scripts/install_vscode.sh
+bash scripts/install_vscode.sh
