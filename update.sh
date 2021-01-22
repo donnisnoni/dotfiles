@@ -10,3 +10,4 @@ cp $HOME/.netrc                     ./home
 cp $HOME/.config/fish -rf           ./home/.config
 cp $HOME/.config/fontconfig -rf     ./home/.config
 cp $HOME/.config/lxpanel -rf        ./home/.config
+cp $HOME/.config/lxsession -rf      ./home/.config

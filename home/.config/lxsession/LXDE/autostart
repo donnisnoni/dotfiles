@@ -1,0 +1,3 @@
+@lxpanel --profile LXDE
+@nemo -n
+@xscreensaver -no-splash
