@@ -2,7 +2,7 @@
 
 # Install packages
 sudo apt update -y
-sudo apt install -y lxde hsetroot fish-shell nemo
+sudo apt install -y lxde hsetroot fish-shell nemo git
 
 # Set fish as default shell
 sudo chsh -s `which fish`
