@@ -1,3 +1,3 @@
 # dotfiles
 
-List of my linux configuration setups
+My UNIX setup & configuration files
