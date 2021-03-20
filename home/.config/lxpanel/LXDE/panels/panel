@@ -75,16 +75,13 @@ Plugin {
       id=sublime_text.desktop
     }
     Button {
-      id=code.desktop
-    }
-    Button {
-      id=google-chrome.desktop
-    }
-    Button {
       id=nemo.desktop
     }
     Button {
       id=lxterminal.desktop
+    }
+    Button {
+      id=google-chrome.desktop
     }
     MaxTaskWidth=120
     DisableUpscale=-1
@@ -108,6 +105,8 @@ Plugin {
     VolumeUpKey=XF86AudioRaiseVolume
     CardNumber=-1
     MasterChannel=Master
+    MixerCommand=alsamixer
+    MixerCommandTerm=0
   }
 }
 Plugin {

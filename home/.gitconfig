@@ -1,7 +1,11 @@
 [user]
-	email = donnisnoni.tid3@gmail.com
+	# email = donnisnoni.tid3@gmail.com
+	# name = Don Alfons Nisnoni
+	# signingkey = CC97E5A3903521A0
+	
+	email = donnisnoni@outlook.com
 	name = Don Alfons Nisnoni
-	signingkey = CC97E5A3903521A0
+	signingkey = E94E1D2248F3876E
 [alias]
 	# List available aliases
 	aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
@@ -38,7 +42,7 @@
   	pager = cat
   	# Global ignore file (not shared)
   	excludesfile = ~/.gitignore_global
-	editor = code-exploration --wait --reuse-window
+	editor = code --wait --reuse-window
 	# Don't consider trailing space change as a cause for merge conflicts
 	whitespace = -trailing-space
 [diff]
