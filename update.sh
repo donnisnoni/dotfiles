@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# This script is used to copy all of my linuc config files to the ./home folder
+
 # HOME config files
 cp $HOME/.bash_profile              ./home
 # cp $HOME/.bash_logout             ./home
